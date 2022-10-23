@@ -1,0 +1,116 @@
+{
+    "user" : {
+        "firstname" : "Clive",
+        "lastname" : "Alliance",
+        "email": "dev@clive.com"
+    },
+    "transaction_statuses" : [
+        {
+            "id":1,
+            "name" : "Approved"
+        },
+        {
+            "id":2,
+            "name" : "Declined"
+        },
+        {
+            "id":3,
+            "name" : "Pending"
+        }
+    ],
+    "accounts" : [
+        {
+            "account_name" : "Developer Account",
+            "nuban" : "9002022902",
+            "balance_in_kobo" : 24090000,
+            "account_status" : 1,
+            "transactions" : [
+                {
+                    "narration" : "WOLFGANG RESTAURANT 43ER44//3",
+                    "amount" : 120000,
+                    "date" : "2022-07-07 16:11:06",
+                    "category" : {
+                        "id" : 4,
+                        "name" : "Food & Dining",
+                        "slug" : "food_dining"
+                    },
+                    "status" : 1
+                },
+                {
+                    "narration" : "UBER TRIP L3EEMEE",
+                    "amount" : 320000,
+                    "date" : "2022-07-07 18:11:06",
+                    "category" : {
+                        "id" : 2,
+                        "name" : "Transportation",
+                        "slug" : "transportation"
+                    },
+                    "status" : 1
+                },
+                {
+                    "narration" : "UBER TRIP 0J883EE",
+                    "amount" : 450000,
+                    "date" : "2022-07-08 09:11:06",
+                    "category" : {
+                        "id" : 2,
+                        "name" : "Transportation",
+                        "slug" : "transportation"
+                    },
+                    "status" : 3
+                },
+                {
+                    "narration" : "UBER TRIP 0J883EE",
+                    "amount" : 230000,
+                    "date" : "2022-07-09 19:18:06",
+                    "category" : {
+                        "id" : 3,
+                        "name" : "Nightlife & Social",
+                        "slug" : "nightlife_social"
+                    },
+                    "status" : 1
+                }
+            ]
+        },
+        {
+            "account_name" : "UI/UX Account",
+            "balance_in_kobo" : 3290000,
+            "nuban" : "9802239090",
+            "account_status" : 1,
+            "transactions" : [
+                {
+                    "narration" : "ART SUPPLIES RESORT 43ER44//3",
+                    "amount" : 120000,
+                    "date" : "2022-07-07 12:15:16",
+                    "category" : {
+                        "id" : 5,
+                        "name" : "Leisure",
+                        "slug" : "leisure"
+                    },
+                    "status" : 1
+                },
+                {
+                    "narration" : "WAKANOW D L3EEMEE",
+                    "amount" : 9043000,
+                    "date" : "2022-07-08 11:01:06",
+                    "category" : {
+                        "id" : 9,
+                        "name" : "Travel",
+                        "slug" : "travel"
+                    },
+                    "status" : 1
+                },
+                {
+                    "narration" : "UBER TRIP 0J883EE",
+                    "amount" : 329000,
+                    "date" : "2022-07-09 19:13:06",
+                    "category" : {
+                        "id" : 2,
+                        "name" : "Transportation",
+                        "slug" : "transportation"
+                    },
+                    "status" : 1
+                }
+            ]
+        }
+    ]
+}
